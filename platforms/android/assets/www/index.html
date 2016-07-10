@@ -26,6 +26,9 @@
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript">
             document.addEventListener('deviceready', function () {
+                alert(cordova.plugins);
+                alert(cordova.plugins.notification);
+                alert(cordova.plugins.notification.badge);
                 cordova.plugins.notification.badge.set(10);
             }, false);
         </script>
