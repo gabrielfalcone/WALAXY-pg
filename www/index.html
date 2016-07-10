@@ -23,6 +23,11 @@
     </head>
     <body>
         <iframe frameborder="0" src="http://winsystemsintl.com:50401/WinOpApp_Testing/mobile"></iframe>
-        <!--script type="text/javascript" src="cordova.js"></script-->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript">
+            document.addEventListener('deviceready', function () {
+                cordova.plugins.notification.badge.set(10);
+            }, false);
+        </script>
     </body>
 </html>

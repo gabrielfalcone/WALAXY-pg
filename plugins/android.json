@@ -9,7 +9,14 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.winsystemsintl.walaxy"
+        },
+        "cordova-plugin-badge": {
+            "PACKAGE_NAME": "com.winsystemsintl.walaxy"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.winsystemsintl.walaxy"
+        }
+    }
 }

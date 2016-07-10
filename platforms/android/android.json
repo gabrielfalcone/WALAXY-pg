@@ -11,6 +11,10 @@
                         {
                             "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Badge\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.badge.Badge\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -20,11 +24,28 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.winsystemsintl.walaxy"
+        },
+        "cordova-plugin-badge": {
+            "PACKAGE_NAME": "com.winsystemsintl.walaxy"
+        },
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.winsystemsintl.walaxy"
         }
     },
     "dependent_plugins": {},
-    "modules": [],
+    "modules": [
+        {
+            "file": "plugins/cordova-plugin-badge/www/badge.js",
+            "id": "cordova-plugin-badge.Badge",
+            "clobbers": [
+                "plugin.notification.badge",
+                "cordova.plugins.notification.badge"
+            ]
+        }
+    ],
     "plugin_metadata": {
-        "cordova-plugin-whitelist": "1.2.2"
+        "cordova-plugin-whitelist": "1.2.2",
+        "cordova-plugin-badge": "0.7.2",
+        "cordova-plugin-app-event": "1.2.0"
     }
 }
