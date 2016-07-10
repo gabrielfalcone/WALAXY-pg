@@ -2,7 +2,7 @@
 <widget id="com.winsystemsintl.walaxy" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>WALAXY</name>
     <description>WALAXY on PhoneGap</description>
-    <author href="https://ar.linkedin.com/in/gabrielfalcone" email="gabrielfalcone@gmail.com">Gabriel Falcone</author>
+    <author email="gabrielfalcone@gmail.com" href="https://ar.linkedin.com/in/gabrielfalcone">Gabriel Falcone</author>
     <content src="index.html" />
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
