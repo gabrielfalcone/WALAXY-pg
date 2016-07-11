@@ -22,6 +22,14 @@ module.exports = [
         "id": "cordova-plugin-badge.Badge.Proxy",
         "pluginId": "cordova-plugin-badge",
         "runs": true
+    },
+    {
+        "file": "plugins/phonegap-plugin-push/www/push.js",
+        "id": "phonegap-plugin-push.PushNotification",
+        "pluginId": "phonegap-plugin-push",
+        "clobbers": [
+            "PushNotification"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -29,7 +37,8 @@ module.exports.metadata =
 {
     "cordova-plugin-whitelist": "1.2.2",
     "cordova-plugin-badge": "0.7.2",
-    "cordova-plugin-app-event": "1.2.0"
+    "cordova-plugin-app-event": "1.2.0",
+    "phonegap-plugin-push": "1.7.4"
 }
 // BOTTOM OF METADATA
 });
