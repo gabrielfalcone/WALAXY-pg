@@ -26,10 +26,6 @@
         },
         "cordova-plugin-app-event": {
             "PACKAGE_NAME": "com.winsystemsintl.walaxy"
-        },
-        "phonegap-plugin-push": {
-            "SENDER_ID": "526789356467",
-            "PACKAGE_NAME": "com.winsystemsintl.walaxy"
         }
     },
     "dependent_plugins": {},
@@ -56,20 +52,11 @@
             "id": "cordova-plugin-badge.Badge.Proxy",
             "pluginId": "cordova-plugin-badge",
             "runs": true
-        },
-        {
-            "file": "plugins/phonegap-plugin-push/www/push.js",
-            "id": "phonegap-plugin-push.PushNotification",
-            "pluginId": "phonegap-plugin-push",
-            "clobbers": [
-                "PushNotification"
-            ]
         }
     ],
     "plugin_metadata": {
         "cordova-plugin-whitelist": "1.2.2",
         "cordova-plugin-badge": "0.7.2",
-        "cordova-plugin-app-event": "1.2.0",
-        "phonegap-plugin-push": "1.7.4"
+        "cordova-plugin-app-event": "1.2.0"
     }
 }
